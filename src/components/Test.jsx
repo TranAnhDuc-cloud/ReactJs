@@ -1,3 +1,12 @@
+import './App.css'
+import Header from './components/Header';
+import ReactDOM from 'react-dom';
+import Siderbar from './components/Siderbar';
+import Footer from './components/Footer';
+import Body from './components/Body';
+import React, { useState } from 'react';
+import Radium, {StyleRoot} from 'radium';
+
 // const myelement = (
 //   <table>
 //     <tr>
@@ -73,7 +82,7 @@ class Car extends React.Component {
   
   ReactDOM.render(<Car />, document.getElementById('main'));
   
-  class Header extends React.Component {
+  class Headers extends React.Component {
     constructor(props) {
       super(props); 
       this.state = {favoritecolor: "red"};
@@ -176,4 +185,3 @@ class Car extends React.Component {
     }
   }
   ReactDOM.render(<InPutForm />, document.getElementById('main'));
-  

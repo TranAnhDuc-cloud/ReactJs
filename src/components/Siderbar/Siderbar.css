@@ -1,0 +1,12 @@
+.Siderbar{
+    background-color: #bababa;
+    box-shadow: 0 1px 10px 0 rgba(225, 225, 225, .5);
+    width:15%;
+    float:left;
+    height: 100%;
+    position:fixed;
+}
+.Content{
+    width:auto;
+    height:auto;
+}

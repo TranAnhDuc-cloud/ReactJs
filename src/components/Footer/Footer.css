@@ -1,0 +1,7 @@
+.Footer {
+    clear: both;
+    border-top: 1px solid #bababa;
+    width:85%;
+    float:right;
+    display: flex;
+}
